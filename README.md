@@ -49,13 +49,13 @@ We will run various machine learning techniques to prepare and optimize the mode
 
 We will employ supervised learning techniques. Specifically, the model methods that can handle categorical and numerical values.
 
-Step 1: Data preprocessing
+**Step 1: Data Preprocessing**
 - Data has null value: BMI column has 162 null values. 162 is just 4% of sample, however we will fill this null cell with mean of BMI.
 - We will convert categorical values to on-hot encoding.
 - We will drop few redundant and unrequired columns. ['Residence_type_Rural','Residence_type_Urban','gender_Other', 'gender_Male', 'gender_Female','ever_married_No']
 - Check for Duplicate row values
 
-Step 2: Model Training and Internal Evaluation
+**Step 2: Model Training and Internal Evaluation**
 Here, we have listed following models to test stroke prediction capability.
 - Logistic Regression
 - Decision Tree
@@ -67,12 +67,15 @@ Here, we have listed following models to test stroke prediction capability.
 
 All the steps and procedure to run this model is given in the python notebook.
 
-On top of internal evaluation parameters, we will test this models to test new data available at competition. Based on that, we will select the best performing model.
+**Step 3: Test on real-world dataset**
+- On top of internal evaluation parameters, we will test this models to test new data available at competition. Based on that, we will select the best performing model.
 
-Gradient Boosting Classifier resulted best score of 0.2352.
 
-While this is not a good score, our learning is still on and expect improvement in this models. As of now, only beginer level of model optimization was carried out. Will move towards advanced optimzation techniques and select best performance.
-Learning is still on.
+Gradient Boosting Classifier resulted best score of **0.2352**.
+
+While this is not a good score, our learning is still on and please expect improvement in the models.
+
+As of now, only beginer level of model optimization was carried out. Will move towards advanced optimzation techniques and select best performance. Learning is still on.
 ## Acknowledgements
 
  - [Scikit-learn](https://scikit-learn.org/stable/about.html)
@@ -81,3 +84,4 @@ Learning is still on.
 ## License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
