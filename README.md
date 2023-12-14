@@ -8,7 +8,7 @@ The goal of this ML model is to figure out if a person will experience a stroke 
 ## File Structure
 
 - Stroke ML Prediction Model.ipynb: Python Notebook containing the trained models.
-
+- Results: Data visualization that helps understand the data better. Contains plot images. 
 - README.md: Project documentation providing an overview, usage instructions, and other relevant information.
 ## Steps
 
